@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <!-- - - - - - - - - - - - - -->
+    <!-- Used throughout Movies-->
+    <!-- - - - - - - - - - - - - -->
+
+
+    <!--Used in Action Bar, and in AndroidManifest to tell the device the name of this app.-->
+    <!--It's good to keep this short, so your launcher icon isn't displayed with "The greatest Movies"-->
+    <!--or something similar.-->
+    <string name="app_name">Movies 2</string>
+
+    <!--By convention, "action" denotes that this String will be used as the label for an Action,-->
+    <!--typically from the action bar.  The ActionBar is limited real estate, so shorter is better.-->
+    <string name="action_sort_popular">Most Popular</string>
+    <string name="action_sort_top_rated">Top Rated</string>
+    <string name="action_sort_favorites">Favorites</string>
+
+    <string name="error_message">
+        An error has occurred. Please try again by refreshing.
+    </string>
+
+    <string name="error_message_detail">
+        An error has occurred. Please try again by going back.
+    </string>
+
+
+    <!--api key for querying movie data-->
+    <string name="movies_query_api">6fc68d2233de65e1fdec858ecdb517e2</string>
+
+    <!--string key for sorting movie data by most popular-->
+    <string name="popular_movies">
+        popular
+    </string>
+
+    <!--string key for sorting movie data by most rated-->
+    <string name="top_rated_movies">
+        top_rated
+    </string>
+
+    <!--string key for sorting movie data by most rated-->
+    <string name="testing_place_holder">
+        TESTING
+    </string>
+
+    <string name="favorite_btn_text_add">Add to favorites</string>
+    <string name="favorite_btn_text_minus">Unfavorite</string>
+
+    <string name="trailer_section_header">TRAILERS:</string>
+
+    <string name="review_section_header">REVIEWS:</string>
+
+</resources>
