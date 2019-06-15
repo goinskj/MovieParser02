@@ -38,7 +38,7 @@
 
 
     <!--api key for querying movie data-->
-    <string name="movies_query_api">6fc68d2233de65e1fdec858ecdb517e2</string>
+    <string name="movies_query_api">xxx</string>
 
     <!--string key for sorting movie data by most popular-->
     <string name="popular_movies">
