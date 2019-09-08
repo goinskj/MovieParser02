@@ -1,6 +1,6 @@
 # Movie Parser
 
-Movie Parser helps users find the most popular movies or the highest rated movies. Users can favorite their movies as they wish. Favorites movies will be saved using the Room Database and Android Architecture Components(Room, LiveData, ViewModel and Lifecycle). 
+Movie Parser helps users find the most popular movies or the highest rated movies. Users can favorite their movies as they wish. Favorited movies will be saved using the Room Database and Android Architecture Components(Room, LiveData, ViewModel and Lifecycle). 
 
 ## Installation
 
