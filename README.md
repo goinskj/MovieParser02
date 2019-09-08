@@ -1,17 +1,29 @@
-# movies_2
+# Movie Parser
 
-Project Overview
-Welcome back to Popular Movies! In this second and final stage, you’ll add additional functionality to the app you built in Stage 1.
+Movie Parser helps users find the most popular movies or the highest rated movies. Users can favorite their movies as they wish. Favorites movies will be saved using the Room Database and Android Architecture Components(Room, LiveData, ViewModel and Lifecycle). 
 
-You’ll add more information to your movie details view:
+## Installation
 
-You’ll allow users to view and play trailers (either in the youtube app or a web browser).
-You’ll allow users to read reviews of a selected movie.
-You’ll also allow users to mark a movie as a favorite in the details view by tapping a button (star).
-You'll make use of Android Architecture Components (Room, LiveData, ViewModel and Lifecycle) to create a robust an efficient application.
-You'll create a database using Room to store the names and ids of the user's favorite movies (and optionally, the rest of the information needed to display their favorites collection while offline).
-You’ll modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
-Recall from Stage 1, you built a UI that presented the user with a grid of movie posters, allowed users to change sort order, and presented a screen with additional information on the movie selected by the user.
+Clone this repository and import into **Android Studio**
 
-What Will I Learn After Stage 2?
-You will build a fully featured application that looks and feels natural on the latest Android operating system.
+`git clone https://github.com/goinskj/MovieParser02.git`
+
+## Build Variants
+
+Use the Android Studio Build Variants button to choose between production and staging flavors combined with debug and release build types
+
+## Maintainers
+
+[Kenneth J. Goins](https://github.com/goinskj)
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Run the linter (ruby lint.rb').
+5. Push your branch (git push origin my-new-feature)
+6. Create a new Pull Request
+
+
+
