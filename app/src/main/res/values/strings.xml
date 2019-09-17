@@ -20,7 +20,7 @@
     <!--Used in Action Bar, and in AndroidManifest to tell the device the name of this app.-->
     <!--It's good to keep this short, so your launcher icon isn't displayed with "The greatest Movies"-->
     <!--or something similar.-->
-    <string name="app_name">Movies 2</string>
+    <string name="app_name">Movie Parser</string>
 
     <!--By convention, "action" denotes that this String will be used as the label for an Action,-->
     <!--typically from the action bar.  The ActionBar is limited real estate, so shorter is better.-->
@@ -38,7 +38,7 @@
 
 
     <!--api key for querying movie data-->
-    <string name="movies_query_api">xxx</string>
+    <string name="movies_query_api">6fc68d2233de65e1fdec858ecdb517e2</string>
 
     <!--string key for sorting movie data by most popular-->
     <string name="popular_movies">
